@@ -25,6 +25,10 @@ These packages are for linting, testing, and git commit safeguarding.
     ```
     cd my_project && git clone https://github.com/FanchenBao/python_template.git .
     ```
+2. Remove README of this template.
+    ```
+    rm README.MD
+    ```
 2. Remove the git history associated with the development of this template and create a new one
     ```
     rm -rf .git && git init
@@ -34,7 +38,10 @@ These packages are for linting, testing, and git commit safeguarding.
     ```bash
     pip install --upgrade pip && pip install -r requirements.txt
     ```
-5. `pre-commit install`
+5. Install pre-commit
+    ```
+    pre-commit install
+    ```
 6. Add other packages if needed. Adjust the configuration of the strictness of linting as needed (i.e. modify `setup.cfg`).
 
 ## Specifics for data science
