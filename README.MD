@@ -21,9 +21,9 @@ These packages are for linting, testing, and git commit safeguarding.
 
 # Usage
 
-1. Clone the repo, and **change the folder name** to that of your project
+1. Create a folder for your project. Assume it is called `my_project`, clone this repo into it.
     ```
-    git clone https://github.com/FanchenBao/python_template.git
+    cd my_project && git clone https://github.com/FanchenBao/python_template.git .
     ```
 2. Remove the git history associated with the development of this template and create a new one
     ```
